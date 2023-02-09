@@ -1,0 +1,86 @@
+/* body{
+    background-color: red;
+} */
+ *{
+    box-sizing: border-box;
+ }
+
+h1,h2{
+    margin: 0px;
+}
+
+#d1{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.head-2{
+    border: 1px solid ;
+    padding: 5px;
+    margin-top: 12px;
+    width: 200px;
+    height: 300px;
+}
+span{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    
+   
+}
+
+h1{
+    border: 1px solid;
+    /* width: 100px; */
+    /* height: 100px; */
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parent{
+    border: 1px solid;
+    display: flex;
+    gap: 10px;
+    /* justify-content: ; */
+    /* align-items:flex-start; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: 400px;
+}
+
+.child
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+.btn{
+    background-color: rgb(57, 57, 62);
+    border: none;
+    color: white;
+    padding: .2em .5em ;
+    border-radius: 1rem;
+    font-size: 100px;
+}
+
+.btn-primary{
+    background-color: rgb(40, 40, 212);
+}
+
+.btn-danger{
+    background-color: rgb(255, 60, 30);
+}
+
+.btn-warning{
+    background-color: rgb(222, 125, 28);
+}
+
+
+
+
+
+
+

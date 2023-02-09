@@ -1,0 +1,25 @@
+1. box model
+    a. content
+    b. padding
+    c. border
+    d. margin
+
+2. display
+    a. inline -> height and width depends on content, no top and bottom padding and margin
+    b. block ->  
+    c. inline-block
+
+3. box-sizing 
+    a. content-box - default
+    b. border-box - recommended
+
+4. Flexbox
+
+    <div class="parent">
+    <h2>hello</h2>
+    <p>world</p>
+    </div>
+    
+    a. Parent property
+        1.
+    b. child property

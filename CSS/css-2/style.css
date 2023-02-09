@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+.container{
+    border: 1px solid;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(75, 75, 75);
+    border: 1px solid;
+    /* flex-grow: 1; */
+
+}
+
+.box-primary{
+    background-color: rgb(95, 147, 237);
+    /* flex-grow: 2;
+    flex-shrink: 2; */
+}
+
+.box-danger{
+    background-color: rgb(237, 95, 95);
+    /* flex-grow: 3;
+    flex-shrink: 3; */
+}
+
+.box-warning{
+    background-color: rgb(237, 149, 95);
+    /* flex-shrink: 4; */
+    /* flex-grow: 4; */
+}
+
